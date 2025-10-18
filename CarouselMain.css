@@ -1,0 +1,98 @@
+.carPic {
+    width: 770px;
+    height: 829px;
+    object-fit: cover;
+    z-index: 8;
+    position: absolute;
+}
+
+@keyframes slide-m-l {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-770px);
+    }
+}
+
+@keyframes slide-s-l {
+    from {
+        transform: translateX(770px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes slide-m-r {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(770px);
+    }
+}
+
+@keyframes slide-s-r {
+    from {
+        transform: translateX(-770px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.side-slide-to-left {
+    animation: slide-s-l;
+    animation-duration: 1.5s;
+}
+
+.mid-slide-to-left {
+    animation: slide-m-l;
+    animation-duration: 1.5s;
+}
+
+.side-slide-to-right {
+    animation: slide-s-r;
+    animation-duration: 1.5s;
+}
+
+.mid-slide-to-right {
+    animation: slide-m-r;
+    animation-duration: 1.5s;
+}
+
+.fade-in {
+    animation: fade-in;
+    animation-duration: 1s;
+}
+
+.fade-out {
+    animation: fade-out;
+    animation-duration: 1s;
+}
