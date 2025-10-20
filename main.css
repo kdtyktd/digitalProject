@@ -12,6 +12,7 @@ img {
     object-fit: cover;
 }
 
+/*nav*/
 nav {
     height: 102px;
     position: relative;
@@ -62,77 +63,9 @@ nav {
     border-bottom: 1px solid black;
 }
 
-.headerr {
-    font-weight: 300;
-    font-family: 'Roboto';
-    line-height: 64px;
-    font-size: 64px;
-    letter-spacing: 0;
-    color: #BDBDBD;
-    margin: 0;
-    padding: 0;
-}
+/**/
 
-.about-div {
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    gap: 30px;
-
-}
-
-.focus-div {
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    gap: 187px;
-}
-
-.focus-div-content {
-    display: flex;
-    flex-direction: row;
-    width: 413px;
-    height: 144px;
-}
-
-.focus-text {
-    display: block;
-    width: 279px;
-    height: 144px;
-    font-weight: 400;
-    font-family: 'Roboto';
-    line-height: 36px;
-    font-size: 22px;
-    margin-left: 30px;
-
-}
-
-.project-div {
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.butn {
-    width: 222px;
-    height: 71px;
-    display: flex;
-    border: none;
-    align-items: center;
-    padding: 0;
-}
-
-.butn-text {
-    font-family: "Gothic A1";
-    font-weight: 400;
-    line-height: 12px;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1.7px;
-    color: #FFFFFF;
-}
-
+/*footer*/
 footer {
     height: 417px;
     background-color: #2C2C2C;
@@ -183,7 +116,6 @@ footer hr {
     margin-bottom: 32px;
 }
 
-
 .footer-div-social {
     margin-left: 99px;
 }
@@ -230,6 +162,93 @@ footer hr {
     height: 24px;
 }
 
+/**/
+.headerr {
+    font-weight: 300;
+    font-family: 'Roboto';
+    line-height: 64px;
+    font-size: 64px;
+    letter-spacing: 0;
+    color: #BDBDBD;
+    margin: 0;
+    padding: 0;
+}
+
+.header-b {
+    color: #333333;
+    display: block;
+    font-weight: 700;
+    height: 64px;
+    font-family: 'Roboto';
+    line-height: 64px;
+    font-size: 64px;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.butn {
+    width: 222px;
+    height: 71px;
+    display: flex;
+    border: none;
+    align-items: center;
+    padding: 0;
+}
+
+.butn-text {
+    font-family: "Gothic A1";
+    font-weight: 400;
+    line-height: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.btn-arrow {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.car-num {
+    font-weight: 400px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.car_control-div {
+    gap: 29px;
+    margin-top: 71px;
+}
+
+.counter-div {
+    width: 141.9px;
+    height: 52px;
+    gap: 30px;
+}
+
+.counter-div img {
+    width: 30px;
+    height: 30px;
+}
+
+.car-button-div {
+    height: 53px;
+    gap: 23px;
+}
+
+.car-button-div hr {
+    color: #F2F2F2;
+    width: 271px;
+    height: 2px;
+    background-color: #F2F2F2;
+}
+
 .car-btn {
     display: flex;
     justify-content: center;
@@ -242,28 +261,7 @@ footer hr {
     border-style: solid;
 }
 
-.car-num {
-    font-weight: 400px;
-    font-family: 'Roboto';
-    font-size: 24px;
-    line-height: 24px;
-    color: #BDBDBD;
-}
-
-.input-form {
-    height: 45px;
-    border: none;
-    background-color: #F3F3F3;
-    padding-left: 21px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    font-family: "Roboto";
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 400;
-    letter-spacing: 0.04em;
-}
-
+/*projects.html*/
 .our-pr-div {
     background-color: #FBFBFB;
     padding: 30px 30px 30px 30px;
@@ -284,10 +282,14 @@ footer hr {
     line-height: 25px;
     font-size: 16px;
     margin: 0;
-
+    height: 120px;
+    width: 400px;
 }
 
+/*contacts.html*/
 .contacts-p-b {
+    text-decoration: none;
+    display: block;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 21px;
@@ -296,6 +298,8 @@ footer hr {
 }
 
 .contacts-p {
+    text-decoration: none;
+    display: block;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 19px;
@@ -303,6 +307,7 @@ footer hr {
     color: #333333;
 }
 
+/*gallery.html*/
 #divGal {
     display: grid;
     gap: 30px;
@@ -310,23 +315,4 @@ footer hr {
     grid-template-rows: 260px 260px;
 }
 
-.car_control-div {
-    gap: 29px;
-    margin-top: 71px;
-}
-
-.counter-div {
-    width: 141.9px;
-    height: 52px;
-    gap: 30px;
-}
-
-.counter-div img {
-    width: 30px;
-    height: 30px;
-}
-
-.button-div {
-    height: 53px;
-    gap: 23px;
-}
+/**/

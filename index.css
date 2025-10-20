@@ -1,0 +1,53 @@
+.about-div {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.focus-div {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 187px;
+}
+
+.focus-div-content {
+    display: flex;
+    flex-direction: row;
+    width: 413px;
+    height: 144px;
+}
+
+.focus-text {
+    display: block;
+    width: 279px;
+    height: 144px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    line-height: 36px;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.project-div {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.input-form {
+    height: 45px;
+    border: none;
+    background-color: #F3F3F3;
+    padding-left: 21px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}

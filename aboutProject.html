@@ -21,33 +21,32 @@
 </head>
 
 <body>
-    <nav class="container-fluid" style="height: 102px; position:relative;">
-        <div style="width: 70px; height:43.71px; top: 29.14px; left:135px; margin: 0px; position: absolute;"><img
-                class="img-fluid" src="pictures/Group11.png" alt="альтернативний текст"></div>
-        <ul class="nav_link_ul m-0 p-0" style="position: absolute; top: 39.83px; left:535px; ">
-            <li class="nav-link-li">
-                <a class="nav-a " href="index.html">main</a>
+    <nav class="p-0 my-0 container-fluid">
+        <div class="nav-icon"><img class="img-fluid" src="pictures/Group11.png" alt="альтернативний текст"></div>
+        <ul class="nav-link-ul m-0 p-0">
+            <li id="main" class="nav-link-li ">
+                <a class="nav-a px-2" href="index.html">main</a>
+            </li>
+            <li id="gallery" class="nav-link-li">
+                <a class="nav-a px-2" href="gallery.html">Gallery</a>
+            </li>
+            <li id="projects" class="nav-link-li nav-cur-page">
+                <a class="nav-a px-2" href="projects.html">PROJECTS</a>
             </li>
             <li class="nav-link-li">
-                <a class="nav-a " href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-link-li  nav-cur-page">
-                <a class="nav-a " href="projects.html">PROJECTS</a>
+                <a class="nav-a px-2" href="#">CERTIFICATIONS</a>
             </li>
             <li class="nav-link-li">
-                <a class="nav-a " href="#">CERTIFICATIONS</a>
-            </li>
-            <li class="nav-link-li">
-                <a class="nav-a " href="#">Contacts</a>
+                <a class="nav-a px-2" href="contacts.html">Contacts</a>
             </li>
         </ul>
     </nav>
-    <main style="margin: 63px 135px 110px 135px;">
+    <main>
         <div style="display:grid; gap:30px; grid-template-columns: 419px 721px;
-        grid-template-rows: 158px 435px 438px 435px;">
+        grid-template-rows: 158px 435px 438px 435px; margin-top: 63px;">
             <div style="grid-column-start: 1; grid-column-end: 3;">
                 <h2 class="headerr">Sample </h2>
-                <span class="headerr" style="color: #333333; display: block; font-weight: 700; height: 64px;">Project
+                <span class="header-b">Project
                     1</span>
                 <hr style="color: #F2F2F2; width: 100%;  height: 2px; background-color: #F2F2F2; margin: 30px 0 30px 0">
             </div>
@@ -59,7 +58,8 @@
             </div>
 
             <div>
-                <p class="about-p"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                <p class="about-p w-100 h-100"> Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem
                     Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                     and
@@ -93,63 +93,55 @@
         </div>
     </main>
     <footer class="w-100">
-        <div class="" style="height: 417px;background-color:#2C2C2C;   border-top: 1px solid transparent;">
-            <div class="d-flex flex-row" style="margin-top: 58px; margin-left: 116px; height: 289px;">
-                <div style="height:94px; width: 145px; "><img style="object-fit: cover;" src="pictures/Group 11 1.png">
-                </div>
-                <div style="margin-left: 99px;">
-                    <h5 class="footer-h5">Information</h5>
-                    <ul class="footer-li m-0 p-0">
-                        <li><a href="index.html">Main</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="#">Certifications</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
-                    </ul>
-                </div>
-
-                <div style="margin-left: 157px;">
-                    <h5 class="footer-h5">Contacts</h5>
-                    <ul class="footer-li m-0 p-0">
-                        <li style="margin-bottom: 32px;" class="d-flex flex-row"><img
-                                style="object-fit: cover; height: 16px; width: 11px; margin-right: 19px;"
-                                src="pictures/Vector.png">
-                            <p class="m-0" style="height: 72px;">1234 Sample Street<br>
-                                Austin Texas 78704</p>
-                        </li>
-                        <li style="margin-bottom: 32px;" class="d-flex flex-row"><img
-                                style="object-fit: cover; height: 16px; width: 16px; margin-right: 14px;"
-                                src="pictures/Group.png">
-                            <p class="m-0">512.333.2222</p>
-                        </li>
-                        <li style="margin-bottom: 32px;" class="d-flex flex-row"><img
-                                style="object-fit: cover; height: 11px; width: 16px; margin-right: 14px; margin-top: 5px;"
-                                src="pictures/Group (1).png">
-                            <p class="m-0">sampleemail@gmail.com</p>
-                        </li>
-
-                    </ul>
-                </div>
-                <div style="margin-left: 99px;">
-                    <h5 class="footer-h5">Social Media</h5>
-                    <ul class="d-flex flex-row p-0" style="gap:40px; list-style-type: none;">
-                        <li><a href="#"><img src="pictures/facebook.png"></a></li>
-                        <li><a href="#"><img src="pictures/Shape.png"></a></li>
-                        <li><a href="#"><img src="pictures/Shape (1).png"></a></li>
-                        <li><a href="#"><img src="pictures/Shape (2).png"></a></li>
-                    </ul>
-                </div>
+        <div class="d-flex flex-row footer-content">
+            <div class="footer-icon"><img src="pictures/Group 11 1.png">
+            </div>
+            <div class="footer-div-inf">
+                <h5 class="footer-h5">Information</h5>
+                <ul class="footer-li m-0 p-0">
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
             </div>
 
-            <hr class="m-0" style="color:#FFFFFF; opacity: 20%;">
-
-            <div style="margin-top: 24px; margin-left: 591px ;"><span
-                    style="color:#FFFFFF; opacity: 20%;font-weight: 400; font-size: 12px; line-height: 22px; letter-spacing: 0; font-family:'Open Sans' ;">©
-                    2021 All Rights Reserved</span>
+            <div class="footer-div-contacts">
+                <h5 class="footer-h5">Contacts</h5>
+                <ul class="footer-li m-0 p-0">
+                    <li class="d-flex flex-row"><img style="height: 16px; width: 11px; margin-right: 19px;"
+                            src="pictures/Vector.png">
+                        <a class="m-0" href="#" style=" display: block; height: 72px;">1234 Sample Street<br>
+                            Austin Texas 78704</a>
+                    </li>
+                    <li class="d-flex flex-row"><img style="height: 16px; width: 16px; margin-right: 14px;"
+                            src="pictures/Group.png">
+                        <a class="m-0" href="tel:5123332222" style=" display: block; ">512.333.2222</a>
+                    </li>
+                    <li class="d-flex flex-row"><img
+                            style="height: 11px; width: 16px; margin-right: 14px; margin-top: 5px;"
+                            src="pictures/Group (1).png">
+                        <a class="m-0" href="mailto:sampleemail@gmail.com"
+                            style=" display: block; ">sampleemail@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-div-social">
+                <h5 class="footer-h5">Social Media</h5>
+                <ul class="d-flex flex-row p-0">
+                    <li><a href="#"><img src="pictures/facebook.png"></a></li>
+                    <li><a href="#"><img src="pictures/Shape.png"></a></li>
+                    <li><a href="#"><img src="pictures/Shape (1).png"></a></li>
+                    <li><a href="#"><img src="pictures/Shape (2).png"></a></li>
+                </ul>
             </div>
         </div>
+        <hr class="m-0">
+        <div class="footer-rights-div">
+            <small>©2021 All Rights Reserved</small>
+        </div>
     </footer>
-
 </body>
 
 </html>
