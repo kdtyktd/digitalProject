@@ -309,3 +309,24 @@ footer hr {
     grid-template-columns: 210px 210px 210px 210px 210px;
     grid-template-rows: 260px 260px;
 }
+
+.car_control-div {
+    gap: 29px;
+    margin-top: 71px;
+}
+
+.counter-div {
+    width: 141.9px;
+    height: 52px;
+    gap: 30px;
+}
+
+.counter-div img {
+    width: 30px;
+    height: 30px;
+}
+
+.button-div {
+    height: 53px;
+    gap: 23px;
+}
