@@ -6,6 +6,12 @@
 
 }
 
+.above-div-background {
+    background-color: #FBFBFB;
+    height: 495px;
+    margin-bottom: 120px;
+}
+
 .focus-div {
     display: flex;
     height: 100%;
@@ -50,4 +56,11 @@
     line-height: 16px;
     font-weight: 400;
     letter-spacing: 0.04em;
+}
+
+.car-img-div {
+    position: relative;
+    overflow: hidden;
+    width: 770px;
+    height: 829px;
 }

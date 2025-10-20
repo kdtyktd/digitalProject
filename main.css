@@ -12,6 +12,14 @@ img {
     object-fit: cover;
 }
 
+.hr-style {
+    color: #F2F2F2;
+    width: 100%;
+    height: 2px;
+    background-color: #F2F2F2;
+    margin: 30px 0 30px 0
+}
+
 /*nav*/
 nav {
     height: 102px;
@@ -164,6 +172,7 @@ footer hr {
 
 /**/
 .headerr {
+    display: block;
     font-weight: 300;
     font-family: 'Roboto';
     line-height: 64px;
@@ -262,6 +271,15 @@ footer hr {
 }
 
 /*projects.html*/
+.projects-wrap {
+    display: grid;
+    row-gap: 60px;
+    grid-template-columns: 670px auto;
+    column-gap: 0;
+    grid-template-rows: 435px 435px 435px;
+    overflow: hidden;
+}
+
 .our-pr-div {
     background-color: #FBFBFB;
     padding: 30px 30px 30px 30px;
@@ -284,6 +302,7 @@ footer hr {
     margin: 0;
     height: 120px;
     width: 400px;
+    display: block;
 }
 
 /*contacts.html*/
@@ -316,3 +335,12 @@ footer hr {
 }
 
 /**/
+
+/*aboutProjects.html*/
+.aboutProjects-wrap {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 419px 721px;
+    grid-template-rows: 158px 435px 438px 435px;
+    margin-top: 63px;
+}
