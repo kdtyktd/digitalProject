@@ -1,0 +1,19 @@
+.contacts-p-b {
+    text-decoration: none;
+    display: block;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.contacts-p {
+    text-decoration: none;
+    display: block;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #333333;
+}

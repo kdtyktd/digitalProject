@@ -1,0 +1,30 @@
+#divGal {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 210px 210px 210px 210px 210px;
+    grid-template-rows: 260px 260px;
+}
+
+.divHeader {
+    margin-top: 63px;
+    margin-bottom: 61px;
+}
+
+@media (max-width: 600px) {
+    #divGal {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin: 5vh auto 5vh auto;
+    }
+
+    .divHeader {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    #divGal img {
+        width: auto;
+        max-height: 50vh;
+    }
+}
