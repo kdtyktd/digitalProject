@@ -31,3 +31,59 @@
     width: 400px;
     display: block;
 }
+
+.divHeader {
+    margin-top: 63px;
+    margin-bottom: 61px;
+}
+
+@media (max-width: 600px) {
+
+    .projects-wrap {
+        display: grid;
+        row-gap: 5vh;
+        grid-template-columns: 80vw;
+        column-gap: 0;
+        grid-template-rows: 30vh auto 30vh auto 30vh auto;
+        overflow: hidden;
+    }
+
+    .projects-wrap div img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .our-pr-div {
+        background-color: #FBFBFB;
+        padding: 0;
+        position: static;
+    }
+
+    .our-pr-div h3 {
+        font-family: "Roboto";
+        font-size: 4vh;
+        line-height: 4vh;
+        font-weight: 300;
+        color: #BDBDBD;
+        margin-bottom: 5vh;
+        margin-top: 1vh;
+    }
+
+    .about-p {
+        font-weight: 300;
+        font-family: 'Roboto';
+        line-height: 3vh;
+        font-size: 2vh;
+        padding: 0 2vw 0 2vw;
+        height: auto;
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .divHeader {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+}

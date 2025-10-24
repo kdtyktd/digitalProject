@@ -22,12 +22,17 @@
 
 <body>
     <nav class="p-0 my-0 container-fluid">
-        <div class="nav-icon"><img class="img-fluid" src="pictures/Group11.png" alt="альтернативний текст"></div>
+        <div class="d-flex flex-row align-items-center">
+            <img id="menubtn" class="d-none" src="pictures/hamenu.png">
+            <div class="nav-icon">
+                <img class="img-fluid" src="pictures/Group11.png" alt="альтернативний текст">
+            </div>
+        </div>
         <ul class="nav-link-ul m-0 p-0">
             <li id="main" class="nav-link-li ">
                 <a class="nav-a px-2" href="index.html">main</a>
             </li>
-            <li id="gallery" class="nav-link-li">
+            <li id="gallery" class="nav-link-li nav-cur-page">
                 <a class="nav-a px-2" href="gallery.html">Gallery</a>
             </li>
             <li id="projects" class="nav-link-li">
@@ -36,21 +41,39 @@
             <li class="nav-link-li">
                 <a class="nav-a px-2" href="#">CERTIFICATIONS</a>
             </li>
-            <li class="nav-link-li nav-cur-page">
-                <a class="nav-a px-2 " href="contacts.html">Contacts</a>
+            <li class="nav-link-li">
+                <a class="nav-a px-2" href="contacts.html">Contacts</a>
             </li>
         </ul>
     </nav>
     <main>
-        <div class="d-flex flex-row" style="gap:177px">
-            <div style="padding-top: 63px;">
+        <div class="d-flex content">
+            <div class="content-div">
                 <h2 class="headerr">Contact</h2>
                 <span class="header-b">Information</span>
-                <p class="contacts-p-b" style="margin-top: 34px;">Company Name</p>
-                <a class="contacts-p" style="margin-top: 4px;" href="#">1234 Sample Street Austin Texas 76401</a>
-                <a class="contacts-p-b" style="margin-top: 44px;" href="tel:5123332222">512.333.2222</a>
-                <a class="contacts-p" style="margin-top: 53px;" href="mailto:sampleemail@gmail.com">
-                    sampleemail@gmail.com</a>
+                <div class="text-wrap">
+                    <div>
+                        <p class="d-block"></p>
+                    </div>
+                    <div>
+                        <p class="contacts-p-b d-block m-0">Company Name</p>
+                    </div>
+                    <div>
+                        <p class="d-block"></p>
+                    </div>
+                    <div><a class="contacts-p d-block" href="#">1234 Sample Street Austin Texas 76401</a></div>
+                    <div>
+                        <p class="d-block"></p>
+                    </div>
+                    <div><a class="contacts-p-b d-block" href="tel:5123332222">512.333.2222</a></div>
+                    <div>
+                        <p class="d-block"></p>
+                    </div>
+                    <div><a class="contacts-p d-block" href="mailto:sampleemail@gmail.com">
+                            sampleemail@gmail.com</a></div>
+                </div>
+
+
                 <button type="button" class="butn" style="background-color: #333333; margin-top: 33px;">
                     <div class="d-flex flex-row align-items-center" style=" margin-left: 71px; ">
                         <p class="butn-text m-0" style="color:#FFFFFF; ">Contact
@@ -70,7 +93,7 @@
 
     </main>
     <footer class="w-100">
-        <div class="d-flex flex-row footer-content">
+        <div class="d-flex footer-content">
             <div class="footer-icon"><img src="pictures/Group 11 1.png">
             </div>
             <div class="footer-div-inf">
@@ -119,7 +142,7 @@
             <small>©2021 All Rights Reserved</small>
         </div>
     </footer>
-
+    <script src="scripts/nav.js"></script>
 </body>
 
 </html>

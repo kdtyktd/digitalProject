@@ -1,0 +1,7 @@
+.aboutProjects-wrap {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 419px 721px;
+    grid-template-rows: 158px 435px 438px 435px;
+    margin-top: 63px;
+}

@@ -17,3 +17,47 @@
     font-weight: 300;
     color: #333333;
 }
+
+.content {
+    flex-direction: row;
+    gap: 177px;
+
+}
+
+.content-div {
+    padding-top: 63px;
+}
+
+.text-wrap {
+    display: grid;
+    row-gap: 0;
+    grid-template-columns: auto;
+    column-gap: 0;
+    grid-template-rows: 34px 16px 4px 16px 44px 16px 53px 16px;
+}
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        gap: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .content-div {
+        padding-top: 5vh;
+    }
+
+    .contacts-p,
+    .contacts-p-b {
+        line-height: 4vw;
+        font-size: 4vw;
+    }
+
+    .text-wrap {
+        display: grid;
+        row-gap: 0;
+        grid-template-columns: auto;
+        column-gap: 0;
+        grid-template-rows: 5vh 2.5vh 4px 2.5vh 7vh 2.5vh 8vh 2.5vh;
+    }
+}
