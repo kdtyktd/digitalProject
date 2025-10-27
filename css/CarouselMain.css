@@ -47,6 +47,50 @@
     }
 }
 
+
+@keyframes slide-m-l-phone {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-80vw);
+    }
+}
+
+@keyframes slide-s-l-phone {
+    from {
+        transform: translateX(80vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes slide-m-r-phone {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(80vw);
+    }
+}
+
+@keyframes slide-s-r-phone {
+    from {
+        transform: translateX(-80vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
 @keyframes fade-in {
     from {
         opacity: 1;
@@ -95,4 +139,26 @@
 .fade-out {
     animation: fade-out;
     animation-duration: 1s;
+}
+
+@media (max-width: 600px) {
+    .side-slide-to-left {
+        animation: slide-s-l-phone;
+        animation-duration: 1.5s;
+    }
+
+    .mid-slide-to-left {
+        animation: slide-m-l-phone;
+        animation-duration: 1.5s;
+    }
+
+    .side-slide-to-right {
+        animation: slide-s-r-phone;
+        animation-duration: 1.5s;
+    }
+
+    .mid-slide-to-right {
+        animation: slide-m-r-phone;
+        animation-duration: 1.5s;
+    }
 }

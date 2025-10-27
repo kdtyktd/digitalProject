@@ -48,26 +48,26 @@
         </ul>
     </nav>
     <main class="p-0">
-        <div class="d-flex flex-row" style="height:829px;margin-bottom: 120px;">
-            <div style="width: 400px;">
-                <div style="margin-top: 336px; ">
+        <div class="d-flex carousel-wrap ">
+            <div class="carousel-text-wrap">
+                <div>
                     <h2 class="headerr">PROJECT</h2>
-                    <div style="position: relative;">
-                        <span id="carNameF" class="header-b w-100"
-                            style="z-index: 4; position: absolute; background-color: #FFFFFF; will-change: opacity; ">Lorum</span>
-                        <span id="carNameB" class="header-b w-100"
+                    <div style="position: relative; height: auto;">
+                        <span id="carNameF" class="header-b w-100 d-block"
+                            style=" z-index: 4; position: absolute; background-color: #FFFFFF; will-change: opacity; ">Lorum</span>
+                        <span id="carNameB" class="header-b w-100 d-block"
                             style="opacity: 0; position: absolute;  background-color: #FFFFFF;  will-change: opacity; ">Lorum</span>
                     </div>
                 </div>
-                <div class="d-flex flex-row align-items-center car-button-div" style="margin-top: 90px; ">
+                <div class="d-flex flex-row align-items-center car-button-div mt-90">
                     <button id="carBtnL" class="car-btn " type="button"><img
                             src="pictures/arrow-2-right-long (1).svg"></button>
-                    <div class="d-flex flex-row align-items-center"><button id="carBtnR" class="car-btn"
+                    <div class="d-flex align-items-center flex-row"><button id="carBtnR" class="car-btn"
                             type="button"><img src="pictures/arrow-2-right-long (2).svg"></button>
-                        <hr>
+                        <hr id="hr1" class="d-none">
                     </div>
                 </div>
-                <div class="d-flex flex-row counter-div" style="margin-top: 90px; ">
+                <div class="d-flex flex-row counter-div mt-90">
                     <span class="car-num">0<br><span class="car-num" id="carCounter">1</span></span>
                     <img src="pictures/Line 3.svg">
                     <span class="car-num">03</span>
@@ -77,12 +77,12 @@
                 <img class="carPic" id="SideSlidePic" src="pictures/Rectangle 6.png">
                 <img class="carPic d-none" id="MidSlidePic" src="pictures/Rectangle 6.png">
                 <img class="carPic" id="curPic" style="z-index: 7;" src="pictures/Rectangle 6.png" alt="">
-                <button id="viewPr" type="button" class="butn"
+                <button id="viewPr" type="button" class="butn align-items-center justify-content-center"
                     style="position:absolute; left:0; bottom: 0;background-color: #FFFFFF; z-index: 10;">
-                    <div class="d-flex flex-row align-items-center" style=" margin-left: 20.34px; ">
+                    <div class="d-flex flex-row align-items-center justify-content-center">
                         <p class="butn-text m-0" style="color: black;">View Project
                         </p>
-                        <img class="btn-arrow" style="margin-left: 18px;" src="pictures/arrow-2-right-long (1).png">
+                        <img class="btn-arrow" src="pictures/arrow-2-right-long (1).png">
                     </div>
                 </button>
             </div>
@@ -104,19 +104,18 @@
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen book. It has survived not only five centuries,
                         but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <button id="viewPr2" class="butn" style="background-color: #FFFFFF; margin-top: 45px;"
-                        type="button">
-                        <div class="d-flex flex-row justify-content-center align-items-center"
-                            style=" margin-left: 35px;">
+                    <button id="viewPr2" class="butn align-items-center justify-content-center mt-45"
+                        style="background-color: #FFFFFF; " type="button">
+                        <div class="d-flex flex-row justify-content-center align-items-center">
                             <p class="butn-text m-0" style=" color: black;">Read More
                             </p>
-                            <img class="btn-arrow" style="margin-left: 13px;" src="pictures/arrow-2-right-long (1).png">
+                            <img class="btn-arrow" src="pictures/arrow-2-right-long (1).png">
                         </div>
                     </button>
                 </div>
             </div>
         </div>
-        <div style="width: 100%; margin-bottom: 120px;">
+        <div class="mb-120" style="width: 100%;">
             <h3 class="headerr">Main Focus/Mission Statement</h3>
             <div class="focus-div">
                 <div class="focus-div-content">
@@ -144,22 +143,21 @@
         <div class="container-fluid project-wrap">
             <h3 class="headerr">Our Projects</h3>
             <div class="project-div-1">
-                <div><button id="viewPr3" type="button"
-                        style="position:relative; background:  url(pictures/Rectangle12.png) no-repeat center center; border: none; background-size: cover; width: 570px; height: 255px;">
-                        <div class="w-100 h-100"
-                            style="position: absolute;top: 0;left: 0; background-color: #333333;opacity:60%"></div>
-                        <div style="position: absolute; top: 48px;left:79px;">
-                            <h3 class="header-b" style="color: #FFFFFF;">
-                                Sample
-                            </h3>
-                            <h3 class="header-b text-start" style="color: #FFFFFF;">Project</h3>
-                            <div class="d-flex flex-row align-items-center" style="margin-top: 8px; ">
-                                <p class="butn-text m-0">View More</p>
-                                <img class="btn-arrow" style="margin-left: 20px;" src="pictures/arrow-2-right-long.png">
-                            </div>
+                <button id="viewPr3" type="button" class="viewbtn"
+                    style="background: url(pictures/Rectangle12.png) no-repeat center center;">
+                    <div class="w-100 h-100 viewbtn-cover"></div>
+                    <div class="viewbtn-text">
+                        <h3 class="header-b" style="color: #FFFFFF;">
+                            Sample
+                        </h3>
+                        <h3 class="header-b text-start" style="color: #FFFFFF;">Project</h3>
+                        <div class="d-flex flex-row align-items-center" style="margin-top: 8px; ">
+                            <p class="butn-text m-0">View More</p>
+                            <img class="btn-arrow" style="margin-left: 20px;" src="pictures/arrow-2-right-long.png">
                         </div>
-                    </button>
-                </div>
+                    </div>
+                </button>
+
                 <div id="our-pr-img1"><img src="pictures/image15.png" alt=""></div>
             </div>
             <div id="our-pr-img2" class="project-div-2">
@@ -170,11 +168,11 @@
             <div style="position: relative;">
                 <button id="viewAllPr"
                     style="background-color: #333333;margin-right: 0;position: absolute;top: 30px ;left: 948px;"
-                    class="butn">
-                    <div class="d-flex flex-row align-items-center" style="margin-left: 39px; ">
+                    class="butn d-none justify-content-center align-items-center">
+                    <div class="d-flex flex-row align-items-center justify-content-center">
                         <p class="butn-text m-0">All Projects
                         </p>
-                        <img class="btn-arrow" style="margin-left: 10px; " src="pictures/arrow-2-right-long.png">
+                        <img class="btn-arrow" src="pictures/arrow-2-right-long.png">
                     </div>
                 </button>
             </div>
@@ -191,11 +189,12 @@
                 </div>
                 <img src="pictures/image 12.png">
             </div>
-            <button type="submit" style="background-color: #333333;margin-top: 77px;" class="butn">
-                <div class="d-flex flex-row align-items-center" style="margin-left: 47px; ">
+            <button type="submit" class="butn align-items-center justify-content-center mt-70"
+                style="background-color: #333333;">
+                <div class="d-flex flex-row align-items-center justify-content-center">
                     <p class="butn-text m-0">Send Email
                     </p>
-                    <img class="btn-arrow" style="margin-left: 12px;" src="pictures/arrow-2-right-long.png">
+                    <img class="btn-arrow" src="pictures/arrow-2-right-long.png">
                 </div>
             </button>
         </div>
