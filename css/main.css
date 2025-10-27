@@ -20,6 +20,18 @@ img {
     margin: 30px 0 30px 0
 }
 
+.about-p {
+    font-weight: 300;
+    font-family: 'Roboto';
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0;
+    height: 120px;
+    width: 400px;
+    display: block;
+}
+
+
 /*nav*/
 nav {
     height: 102px;
@@ -279,6 +291,20 @@ footer hr {
     border-style: solid;
 }
 
+.pr-about-p {
+    font-weight: 300;
+    font-family: 'Roboto';
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0;
+    height: 120px;
+    width: 400px;
+    display: block;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
 
 @media (max-width: 600px) {
     body {
@@ -298,9 +324,37 @@ footer hr {
 
     .headerr,
     .header-b {
+        margin-left: 2vw;
         font-size: 5vh;
         line-height: 6vh;
         height: auto;
+    }
+
+    .mb-20 {
+        margin-bottom: 3vh;
+    }
+
+    .about-p {
+        font-weight: 300;
+        font-family: 'Roboto';
+        line-height: 3vh;
+        font-size: 2vh;
+        padding: 0 2vw 0 2vw;
+        height: auto;
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .pr-about-p {
+        font-weight: 300;
+        font-family: 'Roboto';
+        line-height: 2.5vh;
+        font-size: 2vh;
+        margin: 0;
+        height: auto;
+        width: auto;
+        display: block;
     }
 
     nav {
@@ -314,7 +368,7 @@ footer hr {
 
     .nav-icon {
         height: auto;
-        width: 20vw;
+        width: 18vw;
         margin: 3vh 0 3vh 5vw;
         position: static;
     }
@@ -333,14 +387,14 @@ footer hr {
 
     .nav-a {
         display: block;
-        line-height: 4vw;
-        font-size: 3.5vw;
-        letter-spacing: 1vw;
+        line-height: 3vw;
+        font-size: 2.8vw;
+        letter-spacing: 0.7vw;
         font-family: 'Roboto';
         color: black;
         text-transform: uppercase;
         text-decoration: none;
-        padding: 1vh;
+        padding: 0.7vh;
     }
 
     .nav-link-ul {
@@ -349,7 +403,7 @@ footer hr {
         align-items: start;
         gap: 1vh;
         position: static;
-        margin: 0 10vw !important;
+        margin: 0 3vh !important;
     }
 
     .nav-link-li {

@@ -3,7 +3,8 @@
     height: 100%;
     flex-direction: row;
     gap: 30px;
-
+    margin-left: 100px;
+    margin-right: 70px;
 }
 
 .above-div-background {
@@ -12,11 +13,29 @@
     margin-bottom: 120px;
 }
 
+.about-div1 {
+    width: 270px;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.about-div2 {
+    height: 345px;
+    width: 270px;
+    margin-top: 60px;
+}
+
+.about-div3 {
+    width: 400px;
+    margin: 60px 0 60px 0;
+}
+
 .focus-div {
     display: flex;
     height: 100%;
     flex-direction: row;
     gap: 187px;
+    margin-top: 60px;
 }
 
 .focus-div-content {
@@ -37,11 +56,27 @@
     margin-left: 30px;
 }
 
-.project-div {
+.project-wrap {
+    height: 765px;
+    margin-bottom: 120px;
+}
+
+.project-div-1 {
     display: flex;
     height: 100%;
     flex-direction: row;
     gap: 30px;
+    height: 255px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.project-div-2 {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 30px;
+    height: 255px;
 }
 
 .input-form {
@@ -58,9 +93,191 @@
     letter-spacing: 0.04em;
 }
 
+.input-form-b {
+    border: none;
+    background-color: #F3F3F3;
+    height: 147px;
+    padding-left: 21px;
+    padding-top: 14px;
+    padding-bottom: 117px;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+
+.input-wrap {
+    flex-direction: row;
+    gap: 30px;
+    height: 369px;
+}
+
+.input-wrap div {
+    gap: 10px;
+    width: 391px;
+}
+
+.input-wrap img {
+    width: 749px;
+}
+
 .car-img-div {
     position: relative;
     overflow: hidden;
     width: 770px;
     height: 829px;
+}
+
+@media (max-width: 600px) {
+
+    .input-form {
+        height: 6vh;
+        width: 100%;
+        border: none;
+        background-color: #F3F3F3;
+        padding-left: 2vw;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-family: "Roboto";
+        font-size: 2vh;
+        line-height: 2vh;
+        font-weight: 400;
+        letter-spacing: 0.04em;
+    }
+
+    .input-wrap {
+        flex-direction: column;
+        gap: 3vh;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .input-wrap div {
+        gap: 2vh;
+        width: 100%;
+    }
+
+    .input-wrap img {
+        width: 100%;
+        height: auto;
+    }
+
+    .input-form-b {
+        border: none;
+        background-color: #F3F3F3;
+        height: 20vh;
+        padding-left: 2vw;
+        padding-top: 0vh;
+        padding-bottom: 15vh;
+        font-family: "Roboto";
+        font-size: 2vh;
+        line-height: 2vh;
+        font-weight: 400;
+        letter-spacing: 0.04em;
+    }
+
+    .focus-div {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        gap: 10vw;
+        margin-top: 5vh;
+    }
+
+    .focus-div img {
+        width: auto;
+        height: 10vh;
+        object-fit: contain;
+        padding-left: 0;
+    }
+
+    .focus-div-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        gap: 10vw;
+    }
+
+    .focus-text {
+        display: block;
+        width: auto;
+        height: auto;
+        font-weight: 400;
+        font-family: 'Roboto';
+        line-height: 7vw;
+        font-size: 5.5vw;
+        margin-left: auto;
+        text-align: end;
+        margin-right: 0;
+    }
+
+    .about-div {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        gap: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-div1 {
+        display: flex;
+        width: 70vw;
+        margin-top: 5vh;
+        gap: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-div2 {
+        display: flex;
+        height: auto;
+        width: 70vw;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-div3 {
+        width: 70vw;
+        margin: 0vh 0 5vh 0;
+    }
+
+    .above-div-background {
+        background-color: #FBFBFB;
+        height: auto;
+        margin-bottom: 10vh;
+    }
+
+    .project-wrap {
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .project-div-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .project-div-2 {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
 }

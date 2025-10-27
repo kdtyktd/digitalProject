@@ -5,3 +5,23 @@
     grid-template-rows: 158px 435px 438px 435px;
     margin-top: 63px;
 }
+
+
+@media (max-width: 600px) {
+    .aboutProjects-wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 5vh 0 5vh 0;
+    }
+
+    .aboutProjects-wrap div,
+    .aboutProjects-wrap div img {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .aboutProjects-wrap div img {
+        object-fit: fill;
+    }
+}
