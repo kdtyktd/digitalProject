@@ -162,6 +162,14 @@
     width: 400px;
 }
 
+#viewAllPr {
+    background-color: #333333;
+    margin-right: 0;
+    position: absolute;
+    top: 30px;
+    left: 948px;
+}
+
 @media (max-width: 600px) {
 
     .input-form {
@@ -241,8 +249,8 @@
         height: auto;
         font-weight: 400;
         font-family: 'Roboto';
-        line-height: 7vw;
-        font-size: 5.5vw;
+        line-height: 3vh;
+        font-size: 2vh;
         margin-left: auto;
         text-align: end;
         margin-right: 0;
@@ -306,7 +314,7 @@
     .project-div-1 {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 5vh;
         height: auto;
         margin-top: 5vh;
         margin-bottom: 5vh;
@@ -321,11 +329,14 @@
 
     .viewbtn {
         position: relative;
-        background: url(pictures/Rectangle12.png) no-repeat center center;
         border: none;
         background-size: cover;
         width: 100%;
         height: 30vh;
+    }
+
+    .viewbtn div {
+        margin-top: 0.8vh;
     }
 
     .viewbtn-text {
@@ -362,4 +373,10 @@
         height: 100%;
     }
 
+    #viewAllPr {
+        background-color: #333333;
+        margin-right: 0;
+        margin-top: 2vh;
+        position: static;
+    }
 }

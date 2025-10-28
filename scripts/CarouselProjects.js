@@ -11,7 +11,12 @@ const picsArr = [
     ["pictures/image 32.png", "pictures/image 30.png", "pictures/image 33.png"]
 ];
 
-
+picsArr.forEach((el) => {
+    el.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+})
 
 const carBtnL = document.querySelector('#carBtnL');
 const carBtnR = document.querySelector('#carBtnR');

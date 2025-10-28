@@ -28,8 +28,16 @@ img {
     margin-top: 70px;
 }
 
+.mt-65 {
+    margin-top: 65px;
+}
+
 .mt-45 {
     margin-top: 45px;
+}
+
+.mt-35 {
+    margin-top: 35px
 }
 
 .mb-20 {
@@ -210,6 +218,25 @@ footer hr {
     margin-right: 14px;
 }
 
+.footer-img1 {
+    height: 16px;
+    width: 11px;
+    margin-right: 19px;
+}
+
+.footer-img2 {
+    height: 16px;
+    width: 16px;
+    margin-right: 14px;
+}
+
+.footer-img3 {
+    height: 11px;
+    width: 16px;
+    margin-right: 14px;
+    margin-top: 5px;
+}
+
 /**/
 .headerr {
     display: block;
@@ -354,8 +381,13 @@ footer hr {
     }
 
     .mt-45,
+    .mt-65,
     .mt-70 {
         margin-top: 5vh;
+    }
+
+    .mt-35 {
+        margin-top: 3vh;
     }
 
     .mb-20 {
@@ -419,8 +451,8 @@ footer hr {
 
     .nav-a {
         display: block;
-        line-height: 3vw;
-        font-size: 2.8vw;
+        line-height: 1.6vh;
+        font-size: 1.4vh;
         letter-spacing: 0.7vw;
         font-family: 'Roboto';
         color: black;
@@ -480,8 +512,8 @@ footer hr {
         color: #FFFFFF;
         opacity: 20%;
         font-weight: 400;
-        font-size: 3vw;
-        line-height: 4vw;
+        font-size: 1.5vh;
+        line-height: 2vh;
         letter-spacing: 0;
         font-family: 'Open Sans';
 
@@ -541,8 +573,8 @@ footer hr {
     .footer-li a {
         list-style-type: none;
         font-weight: 400;
-        line-height: 5vw;
-        font-size: 4vw;
+        line-height: 2.5vh;
+        font-size: 2vh;
         letter-spacing: 0;
         color: #FFFFFF;
         display: block;
@@ -557,8 +589,8 @@ footer hr {
 
     .footer-h5 {
         font-weight: 500;
-        line-height: 5vw;
-        font-size: 4vw;
+        line-height: 2.5vh;
+        font-size: 2vh;
         letter-spacing: 0px;
         color: #FFFFFF;
         margin-bottom: 2vh;
@@ -569,6 +601,25 @@ footer hr {
         width: auto;
         object-fit: contain;
         margin-right: 5vw;
+    }
+
+    .footer-img1 {
+        height: 2vh;
+        width: 1.375vh;
+        margin-right: 2.375vh;
+    }
+
+    .footer-img2 {
+        height: 2vh;
+        width: 2vh;
+        margin-right: 1.75vh;
+    }
+
+    .footer-img3 {
+        height: 1.375vh;
+        width: 2vh;
+        margin-right: 1.75vh;
+        margin-top: 0.625vh;
     }
 
     .car_control-div {
@@ -583,6 +634,10 @@ footer hr {
     .car-button-div {
         height: auto;
         gap: 6vw;
+    }
+
+    .car-button-div hr {
+        display: none;
     }
 
     .car-btn {
@@ -627,4 +682,5 @@ footer hr {
         margin-left: 3vw;
         object-fit: cover;
     }
+
 }

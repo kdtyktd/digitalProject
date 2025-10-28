@@ -11,6 +11,11 @@ const carNameF = document.querySelector('#carNameF');
 let curNumPic = 0;
 let arrlen = arrPicSrc.length;
 
+arrPicSrc.forEach(src => {
+    const img = new Image();
+    img.src = src;
+});
+
 function fade() {
     carNameB.innerHTML = arrPrNames[curNumPic];
     carNameF.classList.add("fade-in");
